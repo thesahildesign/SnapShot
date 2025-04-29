@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snapshot</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Javascrip.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+
+<body>
+    <div class="position-relative">
+        <!-- Header Big Start -->
+        <header class="headerbig-position p-3 border-bottom bg-dark-subtle">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="w-25">
+                    <form role="search">
+                        <input type="search" class="form-control" placeholder="Search" aria-label="Search">
+                    </form>
+                </div>
+                <div class="d-flex align-items-center gap-4">
+                    <button class="btn btn-primary d-none d-sm-block d-sm-none d-md-block d-block"><img class="px-1"
+                            src="Icon/add_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="">Create
+                        Post</button>
+                    <a href="#" class="nav-link btn btn-danger px-3 py-2">
+                        <img src="Icon/logout_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" class="bi pe-none" width="20"
+                            height="20">
+                        <use xlink:href="#grid"></use>
+                        </img>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <!-- Header Big End -->
+        <!--Headar Small Start-->
+        <header
+            class="headersmall-position p-3 border-bottom bg-dark-subtle d-flex flex-column align-items-Start gap-3">
+            <div class="d-flex align-items-center justify-content-between gap-3">
+                <a href="/" class="d-flex align-items-center text-white text-decoration-none">
+                    <span class="fs-4">Snapshot</span>
+                </a>
+                <div class="d-flex align-items-center gap-4 active" aria-current="page">
+                    <a href="Notificatio.html">
+                        <button class="btn btn-primary"><img
+                                src="Icon/notifications_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt=""></button>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <form role="search" class="w-100">
+                    <input type="search" class="form-control" placeholder="Search" aria-label="Search">
+                </form>
+            </div>
+        </header>
+        <!--Headar Small End-->
+        <!-- Home Start -->
+        <div class="main-position">
+            <div
+                class="card bg-dark-subtle d-flex flex-row align-items-center justify-content-between mt-2 mb-2 p-3 gap-5 overflow-hidden overflow-x-auto ">
+                <div class="d-flex">
+                    <a href="#" class="me-2 btn btn-primary">All</a>
+                    <a href="#" class="me-2 btn btn-outline-light">Mentions</a>
+                    <a href="#" class="me-2 btn btn-outline-light">Comments</a>
+                    <a href="#" class="me-2 btn btn-outline-light">Likes</a>
+                    <a href="#" class="me-2 btn btn-outline-light">Stories</a>
+                </div>
+                <div class="d-flex">
+                    <img src="Icon/settings_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="" class="px-2">
+                    <img src="Icon/done_all_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="" class="px-2">
+                </div>
+            </div>
+            <div class="overflow-hidden overflow-y-auto">
+                <ul class="list-group">
+                    <li class="list-group-item bg-dark-subtle d-flex align-items-center justify-content-between">
+                        <div class="d-flex align-items-center gap-3">
+                            <img src="Images/FollowingStory/FollowingStory-14.png" alt="" class="imag-fluid">
+                            <div class="d-flex flex-column">
+                                <div class="d-flex flex-column">
+                                    <span class="fw-semibold pe-1">Julie</span>
+                                    <span>liked your photo</span>
+                                </div>
+                                <div>2 minutes ago</div>
+                            </div>
+                        </div>
+                        <img src="Images/Rectangle 30-1.jpg" alt="" class="rounded-3" style="width: 56px;">
+                    </li>
+                    <li class="list-group-item bg-dark-subtle d-flex align-items-center justify-content-between">
+                        <div class="d-flex align-items-center gap-3">
+                            <img src="Images/FollowingStory/FollowingStory-17.png" alt="" class="imag-fluid">
+                            <div class="d-flex flex-column">
+                                <div class="d-flex flex-column">
+                                    <span class="fw-semibold pe-1">Soham</span>
+                                    <span>commented: "Amazing shot! What camera did you use?"</span>
+                                </div>
+                                <div>15 minutes ago</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item bg-dark-subtle d-flex align-items-center justify-content-between">
+                        <div class="d-flex align-items-center gap-3">
+                            <img src="Images/FollowingStory/FollowingStory-6.png" alt="" class="imag-fluid">
+                            <div class="d-flex flex-column">
+                                <div class="d-flex flex-column">
+                                    <span class="fw-semibold pe-1">Darlene</span>
+                                    <span>mentioned you in a story</span>
+                                </div>
+                                <div>1 hour ago</div>
+                            </div>
+                        </div>
+                        <div class="btn btn-outline-light text-nowrap">View Story</div>
+                    </li>
+                    <li class="list-group-item bg-dark-subtle d-flex align-items-center justify-content-between">
+                        <div class="d-flex align-items-center gap-3">
+                            <img src="Images/FollowingStory/FollowingStory-13.png" alt="" class="imag-fluid">
+                            <div class="d-flex flex-column">
+                                <div class="d-flex flex-column">
+                                    <span class="fw-semibold pe-1">Calvin</span>
+                                    <span>started following you</span>
+                                </div>
+                                <div>2 hours ago</div>
+                            </div>
+                        </div>
+                        <div class="btn btn-outline-light text-nowrap">Follow Back</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Home End -->
+
+        <!-- Left sidebar Start -->
+        <div class="bignav-position d-flex flex-column flex-shrink-0 p-3 bg-dark-subtle border-end">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                <svg class="bi pe-none me-2" width="40" height="32">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+                <span class="fs-4">Snapshot</span>
+            </a>
+            <ul class="nav nav-pills flex-column mb-auto pt-5 gap-3">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link text-white">
+                        <img src="Icon/home_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" class="bi pe-none me-2"
+                            width="20" height="20">
+                        <use xlink:href="#home"></use>
+                        </img>
+                        Feed
+                    </a>
+                </li>
+                <li>
+                    <a href="explore.html" class="nav-link text-white">
+                        <img src="Icon/explore_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" class="bi pe-none me-2"
+                            width="20" height="20">
+                        <use xlink:href="#speedometer2"></use>
+                        </img>
+                        Explore
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link active" aria-current="page">
+                        <img src="Icon/notifications_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" class="bi pe-none me-2"
+                            width="20" height="20">
+                        <use xlink:href="#table"></use>
+                        </img>
+                        Notifications
+                    </a>
+                </li>
+                <li>
+                    <a href="Massage.html" class="nav-link text-white">
+                        <img src="Icon/mode_comment_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" class="bi pe-none me-2"
+                            width="20" height="20">
+                        <use xlink:href="#table"></use>
+                        </img>
+                        Massage
+                    </a>
+                </li>
+                <li>
+                    <a href="Profile.html" class="nav-link text-white">
+                        <img src="Icon/person_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" class="bi pe-none me-2"
+                            width="20" height="20">
+                        <use xlink:href="#grid"></use>
+                        </img>
+                        Profile
+                    </a>
+                </li>
+            </ul>
+            <hr>
+            <ul class="nav nav-pills flex-column gap-3">
+                <li>
+                    <a href="Settings.html" class="nav-link text-white">
+                        <img src="Icon/settings_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" class="bi pe-none me-2"
+                            width="20" height="20">
+                        <use xlink:href="#grid"></use>
+                        </img>
+                        Settings
+                    </a>
+                </li>
+                <li>
+                    <div class="dropdown ms-3">
+                        <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="Images/Profile/Profile-1.png" alt="mdo" width="32" height="32"
+                                class="rounded-circle">
+                        </a>
+                        <ul class="dropdown-menu text-small">
+                            <li><a class="dropdown-item" href="#">New Post</a></li>
+                            <li><a class="dropdown-item" href="#">New Story</a></li>
+                            <li><a class="dropdown-item" href="#">Edit Profile</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Sign out</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- Left sidebar End -->
+        <!--Smallnav start-->
+        <div class="smallnav-position border-top">
+            <div class="bg-dark-subtle">
+                <ul class="nav nav-pills mb-auto py-3 px-3 justify-content-between">
+                    <li class="nav-item">
+                        <a href="index.html"
+                            class="d-flex flex-column align-items-center nav-link rounded-3 text-white">
+                            <img src="Icon/home_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" width="20" height="20">
+                            <use xlink:href="#home"></use>
+                            </img>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="explore.html" class="d-flex flex-column align-items-center nav-link text-white">
+                            <img src="Icon/explore_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" width="20" height="20">
+                            <use xlink:href="#speedometer2"></use>
+                            </img>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Massage.html" class="d-flex flex-column align-items-center nav-link text-white">
+                            <img src="Icon/mode_comment_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" width="20"
+                                height="20">
+                            <use xlink:href="#table"></use>
+                            </img>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Profile.html" class="d-flex flex-column align-items-center nav-link text-white">
+                            <img src="Icon/person_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" width="20" height="20">
+                            <use xlink:href="#grid"></use>
+                            </img>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Settings.html" class="d-flex flex-column align-items-center nav-link text-white">
+                            <img src="Icon/settings_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" width="20" height="20">
+                            <use xlink:href="#table"></use>
+                            </img>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Smallnav End-->
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

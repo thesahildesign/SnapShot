@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snapshot</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Javascrip.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+
+<body>
+    <div class="position-relative">
+        <!-- Header Big Start -->
+        <header class="headerbig-position p-3 border-bottom bg-dark-subtle">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="w-25">
+                    <form role="search">
+                        <input type="search" class="form-control" placeholder="Search" aria-label="Search">
+                    </form>
+                </div>
+                <div class="d-flex align-items-center gap-4">
+                    <button class="btn btn-primary d-none d-sm-block d-sm-none d-md-block d-block"><img class="px-1"
+                            src="Icon/add_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="">Create
+                        Post</button>
+                    <a href="#" class="nav-link btn btn-danger px-3 py-2">
+                        <img src="Icon/logout_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" class="bi pe-none" width="20"
+                            height="20">
+                        <use xlink:href="#grid"></use>
+                        </img>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <!-- Header Big End -->
+        <!--Headar Small Start-->
+        <header
+            class="headersmall-position p-3 border-bottom bg-dark-subtle d-flex flex-column align-items-Start gap-3">
+            <div class="d-flex align-items-center justify-content-between gap-3">
+                <a href="/" class="d-flex align-items-center text-white text-decoration-none">
+                    <span class="fs-4">Snapshot</span>
+                </a>
+                <div class="d-flex align-items-center gap-4">
+                    <a href="Notificatio.html">
+                        <button class="btn"><img src="Icon/notifications_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
+                                alt=""></button>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <form role="search" class="w-100">
+                    <input type="search" class="form-control" placeholder="Search" aria-label="Search">
+                </form>
+            </div>
+        </header>
+        <!--Headar Small End-->
+        <!-- Home Start -->
+        <div class="main-position mass-direct">
+            <div class="card d-flex flex-column justify-content-between bg-dark-subtle mass-home">
+                <div class="d-flex align-items-center justify-content-between p-2">
+                    <div class="d-flex align-items-center w-100">
+                        <div class="position-relative p-2">
+                            <span class="onlinebadeg"></span>
+                            <img src="Images/FollowingStory/FollowingStory-19.png" alt="" class="imag-fluid">
+                        </div>
+                        <div class="px-3">
+                            <span class="fs-5 fs-sm-6 fw-semibold text-nowrap">Gladys</span>
+                            <div class="text-secondary fw-semibold">Active</div>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <img src="Icon/call_24dp_E8EAED_FILL1_wght400_GRAD0_opsz24.svg" alt=""
+                            class="px-2 d-none d-sm-block">
+                        <img src="Icon/videocam_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt=""
+                            class="px-2 d-none d-sm-block">
+                        <img src="Icon/more_vert_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="" class="px-2">
+                    </div>
+                </div>
+                <div
+                    class="d-flex flex-column gap-4 bg-body-tertiary p-2 position-relative overflow-hidden overflow-y-auto h-100">
+                    <div class="d-flex align-items-end gap-2">
+                        <img src="Images/FollowingStory/FollowingStory_19.png" alt="">
+                        <div class="p-2 mass-round-start text-bg-dark">
+                            <div>Hi! I've reviewed the latest photograph updates. The new layout looks great! 👍
+                            </div>
+                            <div class="text-secondary">10:30 AM</div>
+                        </div>
+                    </div>
+                    <div class="p-2 mass-round-end text-bg-dark ms-auto">
+                        <div>Thank you! I'm glad you like it. I've made some additional tweaks to improve the user flow.
+                        </div>
+                        <div class="text-secondary">10:32 AM</div>
+                    </div>
+                    <div class="d-flex align-items-end gap-2">
+                        <img src="Images/FollowingStory/FollowingStory_19.png" alt="">
+                        <div class="p-2 mass-round-start text-bg-dark">
+                            <div>Perfect! When can we schedule a call to discuss the next steps?</div>
+                            <div class="text-secondary">10:35 AM</div>
+                        </div>
+                    </div>
+                    <div class="p-2 mass-round-end text-bg-dark ms-auto">
+                        <div>Ok thank schedule as per your choice</div>
+                        <div class="text-secondary">10:38 AM</div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-between p-3 gap-2">
+                    <div class="d-flex align-items-center w-100">
+                        <span class="pe-md-3 pe-2"><a href="#"><img
+                                    src="Icon/sentiment_satisfied_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"
+                                    alt=""></a></span>
+                        <input type="text" name="massgagetext" id="" class="form-control inpurtext w-100"
+                            placeholder="Type a massgage...">
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <span class="px-md-3 px-2"><a href="#"><img
+                                    src="Icon/attach_file_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a></span>
+                        <span class="px-md-3 px-2 py-2 btn btn-primary"><a href="#"><img
+                                    src="Icon/send_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-dark-subtle border-start p-3 mass-box">
+                <div class="d-flex align-items-center justify-content-between">
+                    <span class="fs-4 fw-semibold">Messages</span>
+                    <span class="p-2 rounded-2"><a href="#"><img
+                                src="Icon/edit_square_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a></span>
+                </div>
+                <form role="search" class="py-2 py-md-3">
+                    <input type="search" class="form-control w-100" placeholder="Search messages" aria-label="Search">
+                </form>
+                <div class="d-flex flex-lg-column gap-3 mass-box-card">
+                    <div class="card p-2 w-auto d-none d-sm-block">
+                        <div class="d-flex align-items-center justify-content-between gap-3">
+                            <div class="d-flex align-items-center gap-2">
+                                <div class="border border-success border-3 rounded-circle">
+                                    <img src="Images/FollowingStory/FollowingStory-9.png" alt="" class="avatar-img">
+                                </div>
+                                <div>
+                                    <span class="fs-6 fw-semibold text-nowrap pe-1">Kristin</span>
+                                    <div>Thanks for the update!</div>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column align-items-end gap-2">
+                                <span class="text-nowrap">2m ago</span>
+                                <span class="badge text-bg-danger rounded-circle">2</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card p-2 w-auto d-none d-sm-block">
+                        <div class="d-flex align-items-center justify-content-between gap-3">
+                            <div class="d-flex align-items-center gap-2">
+                                <div class="border border-success border-3 rounded-circle">
+                                    <img src="Images/FollowingStory/FollowingStory-2.png" alt="" class="avatar-img">
+                                </div>
+                                <div>
+                                    <span class="fs-6 fw-semibold text-nowrap pe-1">Floyd</span>
+                                    <div>Project meeting at 3 PM</div>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column align-items-end gap-2">
+                                <span class="text-nowrap">1h ago</span>
+                                <span class="badge text-bg-danger rounded-circle">1</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row overflow-hidden overflow-x-auto w-100 gap-3 py-2 d-block d-sm-none">
+                        <div>
+                            <img src="Images/FollowingStory/FollowingStory_9.png" alt=""
+                                class="border border-success border-3 rounded-circle">
+                        </div>
+                        <div>
+                            <img src="Images/FollowingStory/FollowingStory_5.png" alt=""
+                                class="border border-success border-3 rounded-circle">
+                        </div>
+                        <div>
+                            <img src="Images/FollowingStory/FollowingStory_19.png" alt=""
+                                class="border border-success border-3 rounded-circle">
+                        </div>
+                        <div>
+                            <img src="Images/FollowingStory/FollowingStory_8.png" alt=""
+                                class="border border-success border-3 rounded-circle">
+                        </div>
+                        <div>
+                            <img src="Images/FollowingStory/FollowingStory_4.png" alt=""
+                                class="border border-success border-3 rounded-circle">
+                        </div>
+                        <div>
+                            <img src="Images/FollowingStory/FollowingStory_15.png" alt=""
+                                class="border border-success border-3 rounded-circle">
+                        </div>
+                        <div>
+                            <img src="Images/FollowingStory/FollowingStory_16.png" alt=""
+                                class="border border-success border-3 rounded-circle">
+                        </div>
+                        <div>
+                            <img src="Images/FollowingStory/FollowingStory_6.png" alt=""
+                                class="border border-success border-3 rounded-circle">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Home End -->
+
+        <!-- Left sidebar Start -->
+        <div class="bignav-position d-flex flex-column flex-shrink-0 p-3 bg-dark-subtle border-end">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                <svg class="bi pe-none me-2" width="40" height="32">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+                <span class="fs-4">Snapshot</span>
+            </a>
+            <ul class="nav nav-pills flex-column mb-auto pt-5 gap-3">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link text-white">
+                        <img src="Icon/home_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" class="bi pe-none me-2"
+                            width="20" height="20">
+                        <use xlink:href="#home"></use>
+                        </img>
+                        Feed
+                    </a>
+                </li>
+                <li>
+                    <a href="explore.html" class="nav-link text-white">
+                        <img src="Icon/explore_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" class="bi pe-none me-2"
+                            width="20" height="20">
+                        <use xlink:href="#speedometer2"></use>
+                        </img>
+                        Explore
+                    </a>
+                </li>
+                <li>
+                    <a href="Notificatio.html" class="nav-link text-white">
+                        <img src="Icon/notifications_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" class="bi pe-none me-2"
+                            width="20" height="20">
+                        <use xlink:href="#table"></use>
+                        </img>
+                        Notifications
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link active" aria-current="page">
+                        <img src="Icon/mode_comment_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" class="bi pe-none me-2"
+                            width="20" height="20">
+                        <use xlink:href="#table"></use>
+                        </img>
+                        Massage
+                    </a>
+                </li>
+                <li>
+                    <a href="Profile.html" class="nav-link text-white">
+                        <img src="Icon/person_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" class="bi pe-none me-2"
+                            width="20" height="20">
+                        <use xlink:href="#grid"></use>
+                        </img>
+                        Profile
+                    </a>
+                </li>
+            </ul>
+            <hr>
+            <ul class="nav nav-pills flex-column gap-3">
+                <li>
+                    <a href="Settings.html" class="nav-link text-white">
+                        <img src="Icon/settings_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" class="bi pe-none me-2"
+                            width="20" height="20">
+                        <use xlink:href="#grid"></use>
+                        </img>
+                        Settings
+                    </a>
+                </li>
+                <li>
+                    <div class="dropdown ms-3">
+                        <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="Images/Profile/Profile-1.png" alt="mdo" width="32" height="32"
+                                class="rounded-circle">
+                        </a>
+                        <ul class="dropdown-menu text-small">
+                            <li><a class="dropdown-item" href="#">New Post</a></li>
+                            <li><a class="dropdown-item" href="#">New Story</a></li>
+                            <li><a class="dropdown-item" href="#">Edit Profile</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Sign out</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- Left sidebar End -->
+        <!--Smallnav start-->
+        <div class="smallnav-position border-top">
+            <div class="bg-dark-subtle">
+                <ul class="nav nav-pills mb-auto py-3 px-3 justify-content-between">
+                    <li class="nav-item">
+                        <a href="index.html"
+                            class="d-flex flex-column align-items-center nav-link rounded-3 text-white">
+                            <img src="Icon/home_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" width="20" height="20">
+                            <use xlink:href="#home"></use>
+                            </img>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="explore.html" class="d-flex flex-column align-items-center nav-link text-white">
+                            <img src="Icon/explore_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" width="20" height="20">
+                            <use xlink:href="#speedometer2"></use>
+                            </img>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="d-flex flex-column align-items-center nav-link active" aria-current="page">
+                            <img src="Icon/mode_comment_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" width="20"
+                                height="20">
+                            <use xlink:href="#table"></use>
+                            </img>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Profile.html" class="d-flex flex-column align-items-center nav-link text-white">
+                            <img src="Icon/person_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" width="20" height="20">
+                            <use xlink:href="#grid"></use>
+                            </img>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Settings.html" class="d-flex flex-column align-items-center nav-link text-white">
+                            <img src="Icon/settings_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" width="20" height="20">
+                            <use xlink:href="#table"></use>
+                            </img>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Smallnav End-->
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
